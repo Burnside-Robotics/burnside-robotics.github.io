@@ -181,8 +181,57 @@ header {
 }
 
 .PageBox {
-    border-radius: 3vw;
+    /*border-radius: 3vw;*/
     padding: 3vw;
     padding-top: 2vw;
     margin-top: 4vw;
+}
+
+/** written by rak **/
+
+div.RobotContainer {
+    position: relative;
+
+}
+
+div.RobotImage{
+    position: relative;
+    height: 100%;
+}
+
+div.RobotImage img {
+    border-radius: 15%;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+div.RobotContainer div.RobotImage::after{
+    content: "";
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    display: inline-block;
+    transition: opacity 1s ease-in-out;
+    background-image: linear-gradient(rgba(0,0,0,0), black);
+    border-radius: 15%;
+}
+
+div.RobotContainer  div.RobotImage:hover::after{
+opacity: 0.5;
+}
+
+div.RobotContainer h1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
 }
