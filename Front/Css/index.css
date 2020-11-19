@@ -154,23 +154,6 @@ header {
     color: white;
     justify-self: center;
     align-self: end;
-    transition-duration: 0.2s;
-    opacity: 0.5;
-}
-
-.RobotParent::after {
-    transition: opacity 0.5s ease-in-out;
-    content: '';
-    position: absolute;
-    display: inline-block;
-    width: 30%;
-    height: 59%;
-    opacity: 0;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1));
-}
-
-.RobotParent:hover::after {
-    opacity: 1;
 }
 
 #AwardSplitter {
@@ -187,14 +170,14 @@ header {
     margin-top: 4vw;
 }
 
+
 /** written by rak **/
 
 div.RobotContainer {
     position: relative;
-
 }
 
-div.RobotImage{
+div.RobotImage {
     position: relative;
     height: 100%;
 }
@@ -202,32 +185,32 @@ div.RobotImage{
 div.RobotImage img {
     border-radius: 15%;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
 
-div.RobotContainer div.RobotImage::after{
+div.RobotContainer div.RobotImage::after {
     content: "";
     position: absolute;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     opacity: 0;
     z-index: 1;
     display: inline-block;
     transition: opacity 1s ease-in-out;
-    background-image: linear-gradient(rgba(0,0,0,0), black);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), black);
     border-radius: 15%;
 }
 
-div.RobotContainer  div.RobotImage:hover::after{
-opacity: 0.5;
+div.RobotContainer div.RobotImage:hover::after {
+    opacity: 0.5;
 }
 
-div.RobotContainer h1{
+div.RobotContainer h1 {
     position: absolute;
     left: 0;
     right: 0;
