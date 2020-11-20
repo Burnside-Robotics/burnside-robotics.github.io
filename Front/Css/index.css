@@ -213,12 +213,18 @@ div.RobotContainer div.RobotImage::after {
   z-index: 1;
   display: inline-block;
   transition: opacity 0.5s ease-in-out;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), black);
+  background-image: linear-gradient(
+    to top,
+    black 5%,
+    rgba(0, 0, 0, 0.5) 20%,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
+  );
   border-radius: 15%;
 }
 
 div.RobotContainer div.RobotImage:hover::after {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 div.RobotContainer h1 {
@@ -229,4 +235,19 @@ div.RobotContainer h1 {
   opacity: 0;
   z-index: 2;
   text-align: center;
+}
+#SponsorShipBox {
+  display: grid;
+  grid-template-columns: 65% auto;
+  grid-template-rows: repeat(auto-fit, minmax(min-content, 1fr));
+}
+#SponsorShipBox h1 {
+  grid-column: 1;
+}
+#SponsorShipBox p {
+  grid-column: 1;
+}
+#SponsorShipBox img {
+  margin-top: -10%;
+  grid-column: 2;
 }
