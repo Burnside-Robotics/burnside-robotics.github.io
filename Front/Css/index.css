@@ -247,4 +247,48 @@ div.RobotContainer h1 {
 footer {
     height: 20vh;
     background-image: url('../Assets/imgs/FooterBackground.png');
+    display: grid;
+    grid-template-columns: 40vw auto 5vw;
+    grid-template-rows: 50% 25% 5% auto;
+}
+
+footer h1 {
+    color: white;
+    grid-row: 2;
+    margin: 0;
+    margin-left: 4vw;
+}
+
+footer h2 {
+    font-family: "Product Sans Regular";
+    color: white;
+    font-size: 2vw;
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: right;
+    margin: 0;
+    display: block;
+}
+
+footer h3 {
+    font-family: "Product Sans Bold";
+    color: white;
+    font-size: 1vw;
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: right;
+    margin: 0;
+    display: block;
+}
+
+footer h4 {
+    font-family: "Product Sans Bold";
+    color: white;
+    font-size: 1vw;
+    grid-column: 1;
+    grid-row: 4;
+    margin: 0;
+    display: block;
+    margin-top: 1%;
+    margin-left: 4vw;
 }
