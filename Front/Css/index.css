@@ -150,7 +150,7 @@ header {
     width: 30vw;
 }
 
-.RobotName {
+.RobotAwardName {
     font-size: 2vw;
     color: white;
     justify-self: center;
@@ -176,17 +176,17 @@ header {
 
 /** written by rak **/
 
-div.RobotContainer {
+div.RobotAwardContainer {
     position: relative;
 }
 
-div.RobotImage {
+div.RobotAwardImage {
     position: relative;
     height: 100%;
 }
 
-div.RobotImage img {
-    border-radius: 15%;
+div.RobotAwardImage img {
+    border-radius: 2vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -194,7 +194,7 @@ div.RobotImage img {
     height: 100%;
 }
 
-div.RobotContainer div.RobotImage::after {
+div.RobotAwardContainer div.RobotAwardImage::after {
     content: "";
     position: absolute;
     left: 0;
@@ -206,14 +206,14 @@ div.RobotContainer div.RobotImage::after {
     display: inline-block;
     transition: opacity 0.5s ease-in-out;
     background-image: linear-gradient( to top, black 5%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-    border-radius: 15%;
+    border-radius: 2vw;
 }
 
-div.RobotContainer div.RobotImage:hover::after {
+div.RobotAwardContainer div.RobotAwardImage:hover::after {
     opacity: 1;
 }
 
-div.RobotContainer h1 {
+div.RobotAwardContainer h1 {
     position: absolute;
     left: 0;
     right: 0;
