@@ -138,6 +138,7 @@ header {
     grid-column: 3;
     align-self: center;
     justify-self: center;
+    width: 3.75vw;
 }
 
 #AwardsRobotsArea {
@@ -174,6 +175,7 @@ header {
     grid-row: 2;
     justify-self: center;
     align-self: center;
+    width: 1.04vw;
 }
 
 .PageBox {
