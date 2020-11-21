@@ -45,8 +45,17 @@ header {
     top: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 2% 10% auto repeat(7, 7.5%) 7.5%;
+    grid-template-columns: 2% 10% auto 7.5% 7.5% 6% 9% 9% 7.5% 9%;
     grid-template-rows: 10% 80% 10%;
+}
+
+.HeaderHighlighter {
+    position: absolute;
+    top: 97%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s;
 }
 
 #LogoContainer {
@@ -66,6 +75,7 @@ header {
     color: black;
     font-family: "Product Sans Bold";
     font-size: 1.5vw;
+    opacity: 0.7;
 }
 
 #MainPhoto {
@@ -244,7 +254,7 @@ div.RobotAwardContainer h1 {
     width: 80%;
 }
 
-footer {
+#Footer {
     height: 20vh;
     background-image: url('../Assets/imgs/FooterBackground.png');
     display: grid;
@@ -252,14 +262,14 @@ footer {
     grid-template-rows: 50% 25% 5% auto;
 }
 
-footer h1 {
+#Footer h1 {
     color: white;
     grid-row: 2;
     margin: 0;
     margin-left: 4vw;
 }
 
-footer h2 {
+#Footer h2 {
     font-family: "Product Sans Regular";
     color: white;
     font-size: 2vw;
@@ -270,7 +280,7 @@ footer h2 {
     display: block;
 }
 
-footer h3 {
+#Footer h3 {
     font-family: "Product Sans Bold";
     color: white;
     font-size: 1vw;
@@ -281,7 +291,7 @@ footer h3 {
     display: block;
 }
 
-footer h4 {
+#Footer h4 {
     font-family: "Product Sans Bold";
     color: white;
     font-size: 1vw;
