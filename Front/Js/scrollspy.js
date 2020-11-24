@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const sections = document.querySelectorAll("section");
     const menu_highlighters = document.querySelectorAll(".HeaderHighlighter");
     const menu_links = document.querySelectorAll(".HeaderLink");
-    const header = document.querySelector("header"); 
+    const headerBlur = document.querySelector("#headerBlur"); 
+    const bigLogo = document.querySelector("#WelcomeLogo");
+    const smallLogo = document.querySelector("#HeaderLogo");
     const mainPhoto = document.querySelector("#MainPhoto")
     const makeActive = (function (link) {
         menu_highlighters[0].style.left = link == 0 ? "48.4%" : menu_highlighters[link].style.left;
@@ -19,15 +21,17 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentActive = 0;
 
     window.addEventListener("scroll", () => {
-        if($(window).scrollTop() > 600)
+        if($(window).scrollTop() > 350)
         {
-            header.style.backdropFilter = "blur(10px)";
-            header.style.background = "rgba(255,255,255,0.7)";  
+            headerBlur.style.height = "6.6vw";
+            bigLogo.style.opacity = "0";
+            smallLogo.style.opacity = "1";
         }
         else
         {
-            header.style.backdropFilter = "blur(0)";
-            header.style.background = "rgba(255,255,255,0)";
+            headerBlur.style.height = "";
+            bigLogo.style.opacity = "";
+            smallLogo.style.opacity = "";
         }
         mainPhoto.style.backgroundPositionY = "" + $(window).scrollTop() * 0.5 + "px";
         var current = sections.length - [...sections].reverse().findIndex((section) => window.scrollY >= section.offsetTop - sectionMargin) - 1

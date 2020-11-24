@@ -37,17 +37,27 @@ body {
 }
 
 header {
-  height: 6.6vw;
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0);
-  transition-duration: 0.2s;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%;
   display: grid;
+  z-index: 0;
+  height: 6.6vw;
+  width: 100%;
+  position: fixed;
+  top: 0;
   grid-template-columns: 2% 10% auto 7.5% 7.5% 6% 9% 9% 7.5% 9%;
   grid-template-rows: 10% 80% 10%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#headerBlur {
+  height: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transition-duration: 0.3s;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  width: 100%;
 }
 
 .HeaderHighlighter {
@@ -67,6 +77,8 @@ header {
 
 #HeaderLogo {
   height: 100%;
+  opacity: 0;
+  transition-duration: 0.3s;
 }
 
 .HeaderLink {
@@ -99,8 +111,10 @@ header {
   width: 34%;
   position: absolute;
   left: 50%;
-  top: 40.6vw;
+  top: 38vw;
   transform: translate(-50%, -50%);
+  z-index: 0;
+  transition-duration: 0.3s;
 }
 
 .MainInfoBody {
