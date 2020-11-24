@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const smallLogo = document.querySelector("#HeaderLogo");
     const mainPhoto = document.querySelector("#MainPhoto");
     const infoArea = document.querySelector("#FirstInfoArea");
+    const infoLine = document.querySelector("#infoLine");
     const makeActive = (function (link) {
         menu_highlighters[0].style.left = link == 0 ? "48.4%" : menu_highlighters[link].style.left;
         menu_links[link].style.opacity = 1;
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             smallLogo.style.opacity = "1";
             infoArea.style.width = "92vw";
             infoArea.style.marginLeft = "0";
+            infoLine.style.opacity = "1";
         }
         else
         {
@@ -37,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
             smallLogo.style.opacity = "";
             infoArea.style.width = "";
             infoArea.style.marginLeft = "";
+            infoLine.style.opacity = "";
         }
         mainPhoto.style.backgroundPositionY = "" + $(window).scrollTop() * 0.5 + "px";
         var current = sections.length - [...sections].reverse().findIndex((section) => window.scrollY >= section.offsetTop - sectionMargin) - 1

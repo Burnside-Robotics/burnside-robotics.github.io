@@ -153,6 +153,8 @@ header {
   width: 0.4vw;
   background-color: black;
   border-radius: 17px;
+  opacity: 0;
+  transition-duration: 0.7s;
 }
 #FirstInfoArea div h1 {
   font-size: 1.5vw;
