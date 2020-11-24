@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const headerBlur = document.querySelector("#headerBlur"); 
     const bigLogo = document.querySelector("#WelcomeLogo");
     const smallLogo = document.querySelector("#HeaderLogo");
-    const mainPhoto = document.querySelector("#MainPhoto")
+    const mainPhoto = document.querySelector("#MainPhoto");
+    const infoArea = document.querySelector("#FirstInfoArea");
     const makeActive = (function (link) {
         menu_highlighters[0].style.left = link == 0 ? "48.4%" : menu_highlighters[link].style.left;
         menu_links[link].style.opacity = 1;
@@ -21,17 +22,21 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentActive = 0;
 
     window.addEventListener("scroll", () => {
-        if($(window).scrollTop() > 350)
+        if($(window).scrollTop() > 250)
         {
             headerBlur.style.height = "6.6vw";
             bigLogo.style.opacity = "0";
             smallLogo.style.opacity = "1";
+            infoArea.style.width = "92vw";
+            infoArea.style.marginLeft = "0";
         }
         else
         {
             headerBlur.style.height = "";
             bigLogo.style.opacity = "";
             smallLogo.style.opacity = "";
+            infoArea.style.width = "";
+            infoArea.style.marginLeft = "";
         }
         mainPhoto.style.backgroundPositionY = "" + $(window).scrollTop() * 0.5 + "px";
         var current = sections.length - [...sections].reverse().findIndex((section) => window.scrollY >= section.offsetTop - sectionMargin) - 1
