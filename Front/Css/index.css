@@ -77,6 +77,11 @@ header {
   left: 62%;
   transform: translate(-50%, -50%);
 }
+/*
+#Cursed:hover {
+  background-color: rgba(50, 50, 50, 0.3);
+}
+*/
 #LogoContainer {
   grid-row: 2;
   grid-column: 2;
