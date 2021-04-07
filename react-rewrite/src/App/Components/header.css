@@ -1,0 +1,40 @@
+header {
+    display: grid;
+    height: 6.6vw;
+    width: 100%;
+    position: fixed;
+    grid-template-columns: 2% 10% auto 7% 6.5% 8% 6.5% 7.5% 7.5% 7.5% 9%;
+    grid-template-rows: 10% 80% 10%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#header-blur
+{
+    height: 6.6vw;
+    position: fixed;
+    z-index: -1;
+    transition-duration: 0.3s;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+.HeaderLink {
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Product Sans Bold";
+    font-size: 1.5vw;
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
+#LogoContainer {
+    grid-row: 2;
+    grid-column: 2;
+}
+#HeaderLogo {
+    height: 100%;
+    opacity: 0;
+    transition-duration: 0.3s;
+}

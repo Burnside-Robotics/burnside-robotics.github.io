@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Product Sans Bold";
+  src: url("./Assets/Fonts/Product\ Sans\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "Product Sans Regular";
+  src: url("./Assets/Fonts/Product\ Sans\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Product Sans Medium";
+  src: url("./Assets/Fonts/Product\ Sans\ Medium\ 500.ttf");
+}
+
