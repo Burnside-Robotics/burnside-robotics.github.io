@@ -1,14 +1,15 @@
-import './App.css';
+import './App.scss';
 import './Components/header'
 import { Header } from './Components/header';
 import { MainPhoto } from './Sections/FrontPhoto'
-
+import { About, Awards } from './Sections/Sections'
 function App() {
   return (
     <div className="App">
       <Header/>
-      <MainPhoto></MainPhoto>
-      <section id="AboutSection"></section>
+      <MainPhoto/>
+      <About/>
+      <Awards/>
     </div>
   );
 }

@@ -1,14 +1,15 @@
-
-.main-photo
+#MainPhoto
 {
+  height:  50.7vw;
+
   background-image: url("../Assets/NationalsPhoto.jpg");
-  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
-.main-photo img{
+#MainPhoto img{
   width: 34vw;
   position: absolute;
   left: 50vw;
@@ -17,13 +18,13 @@
   top: 40vw;
   z-index: 1;
 }
-.main-photo::after
+#MainPhoto::after
 {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height:  50.7vw;
   background-image: linear-gradient(
     to bottom,
     rgba(231, 233, 241, 0) 50%,

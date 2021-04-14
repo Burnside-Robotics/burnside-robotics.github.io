@@ -6,6 +6,7 @@ header {
     grid-template-columns: 2% 10% auto 7% 6.5% 8% 6.5% 7.5% 7.5% 7.5% 9%;
     grid-template-rows: 10% 80% 10%;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 2;
 }
 
 #header-blur

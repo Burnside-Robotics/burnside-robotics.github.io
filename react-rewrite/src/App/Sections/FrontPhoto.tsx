@@ -1,10 +1,10 @@
 import HeaderLogo from '../Assets/HeaderLogo.png'
-import './FrontPhoto.css'
+import './FrontPhoto.scss'
 export const MainPhoto = () =>
 {
     return(
-    <div className="main-photo">
+    <div className="parallax-window" id="MainPhoto">
         <img src={HeaderLogo} alt=""/>
       </div>
-      );
+    );
 }
