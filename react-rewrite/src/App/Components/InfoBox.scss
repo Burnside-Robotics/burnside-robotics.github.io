@@ -1,0 +1,15 @@
+.info-box
+{
+    background-color: rgba(250,250,250,0.5);
+    border-radius: 40px;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: auto 10% auto;
+    text-align: center;
+    .info-box-splitter
+    {
+        background-color: grey;
+        margin: 0 40% 0 40%;
+        border-radius: 20px;
+    }
+}

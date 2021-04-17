@@ -1,15 +1,28 @@
 @font-face {
   font-family: "Product Sans Bold";
-  src: url("./Assets/Fonts/Product\ Sans\ Bold.ttf");
+  src: url("./Assets/Fonts/Product Sans Bold.ttf");
 }
 
 @font-face {
   font-family: "Product Sans Regular";
-  src: url("./Assets/Fonts/Product\ Sans\ Regular.ttf");
+  src: url("./Assets/Fonts/Product Sans Regular.ttf");
 }
 
 @font-face {
   font-family: "Product Sans Medium";
-  src: url("./Assets/Fonts/Product\ Sans\ Medium\ 500.ttf");
+  src: url("./Assets/Fonts/Product Sans Medium 500.ttf");
+}
+h1
+{
+  color: black;
 }
 
+h2
+{
+  font-family: "Product Sans Regular", serif;
+  color: black;
+}
+p
+{
+  color: black;
+}
