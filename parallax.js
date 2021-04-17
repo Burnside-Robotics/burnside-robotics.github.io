@@ -11,3 +11,4 @@ const background_image_parallax = function(object, multiplier){
 //Just pass the jQuery object
 //optional second value for speed
 background_image_parallax(document.getElementsByClassName("parallax-window")[0], 0.5);
+// background_image_parallax(document.getElementsByClassName("circuit-background")[0], 0.5);
