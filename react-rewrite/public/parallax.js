@@ -4,7 +4,7 @@ const background_image_parallax = function(object, multiplier){
     object.style.backgroundAttachment = "fixed"
     window.onscroll = function(){
         const from_top = window.pageYOffset;
-        object.style.backgroundPosition = "0px " + (multiplier * -from_top) + 'px';
+        object.style.backgroundPositionY = (multiplier * -from_top) + 'px';
     };
 };
 

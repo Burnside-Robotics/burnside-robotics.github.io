@@ -1,5 +1,7 @@
 import React from 'react';
-
+import './Awards.scss'
+import {SectionBanner} from "../Components/SectionBanner";
+// import '../Assets/AwardIcon'
 export const Awards = () =>
 {
     return(
@@ -7,6 +9,4 @@ export const Awards = () =>
 
         </section>
     );
-
-
 }
