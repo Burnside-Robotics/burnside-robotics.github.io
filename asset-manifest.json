@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.cde97a89.chunk.css",
-    "main.js": "/static/js/main.ec2193c2.chunk.js",
-    "main.js.map": "/static/js/main.ec2193c2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.26d25e25.js",
-    "runtime-main.js.map": "/static/js/runtime-main.26d25e25.js.map",
-    "static/js/2.2d9df827.chunk.js": "/static/js/2.2d9df827.chunk.js",
-    "static/js/2.2d9df827.chunk.js.map": "/static/js/2.2d9df827.chunk.js.map",
-    "static/js/3.0fc4b2d9.chunk.js": "/static/js/3.0fc4b2d9.chunk.js",
-    "static/js/3.0fc4b2d9.chunk.js.map": "/static/js/3.0fc4b2d9.chunk.js.map",
+    "main.css": "/static/css/main.c3a65438.chunk.css",
+    "main.js": "/static/js/main.ccfd2c06.chunk.js",
+    "main.js.map": "/static/js/main.ccfd2c06.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc32d254.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc32d254.js.map",
+    "static/js/2.957490e4.chunk.js": "/static/js/2.957490e4.chunk.js",
+    "static/js/2.957490e4.chunk.js.map": "/static/js/2.957490e4.chunk.js.map",
+    "static/js/3.4b253228.chunk.js": "/static/js/3.4b253228.chunk.js",
+    "static/js/3.4b253228.chunk.js.map": "/static/js/3.4b253228.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cde97a89.chunk.css.map": "/static/css/main.cde97a89.chunk.css.map",
-    "static/js/2.2d9df827.chunk.js.LICENSE.txt": "/static/js/2.2d9df827.chunk.js.LICENSE.txt",
+    "static/css/main.c3a65438.chunk.css.map": "/static/css/main.c3a65438.chunk.css.map",
+    "static/js/2.957490e4.chunk.js.LICENSE.txt": "/static/js/2.957490e4.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/Product Sans Regular.d1653840.ttf",
     "static/media/AwardsTitle.7127df6a.svg": "/static/media/AwardsTitle.7127df6a.svg",
+    "static/media/CommunityAward.b302911a.png": "/static/media/CommunityAward.b302911a.png",
+    "static/media/DesignAward.38cf0038.png": "/static/media/DesignAward.38cf0038.png",
+    "static/media/FinalistAward.765117da.png": "/static/media/FinalistAward.765117da.png",
     "static/media/HeaderLogo.faefe06f.png": "/static/media/HeaderLogo.faefe06f.png",
     "static/media/FrontPhoto.scss": "/static/media/NationalsPhoto.4a633ab2.jpg",
     "static/media/VexTitle.cb8f5f2a.svg": "/static/media/VexTitle.cb8f5f2a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26d25e25.js",
-    "static/js/2.2d9df827.chunk.js",
-    "static/css/main.cde97a89.chunk.css",
-    "static/js/main.ec2193c2.chunk.js"
+    "static/js/runtime-main.bc32d254.js",
+    "static/js/2.957490e4.chunk.js",
+    "static/css/main.c3a65438.chunk.css",
+    "static/js/main.ccfd2c06.chunk.js"
   ]
 }
