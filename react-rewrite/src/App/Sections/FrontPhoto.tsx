@@ -3,8 +3,8 @@ import './FrontPhoto.scss'
 export const MainPhoto = () =>
 {
     return(
-    <div className="parallax-window" id="MainPhoto">
+    <section className="parallax-window" id="MainPhoto">
         <img src={HeaderLogo} alt=""/>
-      </div>
+      </section>
     );
 }

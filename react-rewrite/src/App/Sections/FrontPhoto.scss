@@ -1,13 +1,13 @@
 #MainPhoto
 {
   height:  50.7vw;
-
   background-image: url("../Assets/NationalsPhoto.jpg");
   background-attachment: fixed;
   background-position-y: 0;
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: contain;
+  padding:  0;
 }
 #MainPhoto img{
   width: 34vw;

@@ -12,6 +12,17 @@
   font-family: "Product Sans Medium";
   src: url("./Assets/Fonts/Product Sans Medium 500.ttf");
 }
+@font-face {
+  font-family: "Product Sans Black";
+  src: url("./Assets/Fonts/Product Sans Black 900.ttf");
+}
+@font-face {
+  font-family: "Product Sans Thing";
+  src: url("./Assets/Fonts/Product Sans Thin 250.ttf");
+}
+div{
+  font-family: "Product Sans Bold", serif;
+}
 h1
 {
   color: black;
@@ -19,7 +30,7 @@ h1
 
 h2
 {
-  font-family: "Product Sans Regular", serif;
+  font-family: "Product Sans Black";
   color: black;
   font-size: 2vw;
 }
@@ -27,6 +38,11 @@ p
 {
   color: black;
   font-size: 1vw;
+  font-family: "Product Sans Regular", serif;
+}
+.HeaderLink
+{
+  font-family: "Product Sans Regular";
 }
 section
 {
