@@ -16,7 +16,7 @@ export const InfoBox = (props: infoProps) =>
                     {props.content[0]}
                 </p>
                 </div>
-    </div>
+            </div>
         );
     }
     else

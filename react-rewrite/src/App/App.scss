@@ -32,14 +32,15 @@ section
 {
   padding:  5% 5% 0 5%;
 }
+#AwardsSection
+{
+  display: grid;
+  grid-template-columns: 18.2vw auto 18.2vw auto 18.2vw;
+}
 .circuit-background
 {
   background-color: #E7E9F1;
   background-image: url('./Assets/All_CircuitArt.svg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .circuit-background-blur
 {

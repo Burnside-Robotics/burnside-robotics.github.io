@@ -7,7 +7,10 @@ import VexTitle from './Assets/VexTitle.svg'
 import AwardsTitle from './Assets/AwardsTitle.svg'
 import React from "react";
 import {InfoBox} from "./Components/InfoBox";
-
+import {Award} from './Components/AwardComponent'
+import FinalistAward from './Assets/FinalistAward.png'
+import DesignAward from './Assets/DesignAward.png'
+import CommunityAward from './Assets/CommunityAward.png'
 function App() {
   return (
     <div className="App">
@@ -20,7 +23,10 @@ function App() {
             </section>
             <SectionBanner src={AwardsTitle}>
             </SectionBanner>
-            <section id="AwardsSection">
+            <section style={{paddingTop: "3%"}} id="AwardsSection">
+                <Award src={FinalistAward} side={0} name="Tournament Finalists 2020"/>
+                <Award src={DesignAward} side={1} name="Design Award 2021 "/>
+                <Award src={CommunityAward} side={2} name="Community Award 2019 "/>
             </section>
             <SectionBanner src={VexTitle}>
             </SectionBanner>
