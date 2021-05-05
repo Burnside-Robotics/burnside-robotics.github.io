@@ -1,4 +1,4 @@
-import HeaderLogo from '../Assets/HeaderLogo.png'
+import HeaderLogo from '../Assets/Photos/HeaderLogo.png'
 import './FrontPhoto.scss'
 export const MainPhoto = () =>
 {

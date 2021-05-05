@@ -33,6 +33,7 @@ h2
   font-family: "Product Sans Black";
   color: black;
   font-size: 2vw;
+  margin-top: 0;
 }
 p
 {
@@ -47,6 +48,12 @@ p
 section
 {
   padding:  5% 5% 0 5%;
+}
+#RobotsSection
+{
+  display: grid;
+  grid-template-columns: 24vw auto 24vw auto 24vw;
+  grid-template-rows: 24vw 2vw 24vw;
 }
 #AwardsSection
 {
