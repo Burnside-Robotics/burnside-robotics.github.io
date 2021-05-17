@@ -1,6 +1,6 @@
 {
   "homepage": "https://burnside-robotics.github.io",
-  "name": "Burnside Robotics",
+  "name": "burnside-robotics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
