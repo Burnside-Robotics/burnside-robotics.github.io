@@ -1,14 +1,12 @@
 import './header.scss'
 import HeaderLogo from '../Assets/Photos/HeaderLogo.png'
 import React from 'react'
-import $ from 'jquery';
-
 
 export const Header = () =>
 {
     return(
         <header>
-            <a href="" id="LogoContainer"><img src={HeaderLogo} alt="Burnside Logo" id="HeaderLogo" /></a>
+            <a href="#MainPhoto" id="LogoContainer"><img src={HeaderLogo} alt="Burnside Logo" id="HeaderLogo" /></a>
             <div id="header-blur"/>
             <a href="#MainPhoto" className="HeaderLink" style={{gridColumn: 4, opacity: 1}}>Home</a>
             <a href="#AboutSection" className="HeaderLink" style={{gridColumn: 5}}>About</a>

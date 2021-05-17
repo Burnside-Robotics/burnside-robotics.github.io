@@ -12,7 +12,6 @@ import {Award} from './Components/AwardComponent'
 import FinalistAward from './Assets/Photos/FinalistAward.png'
 import DesignAward from './Assets/Photos/DesignAward.png'
 import CommunityAward from './Assets/Photos/CommunityAward.png'
-import {Gallery} from './Components/Gallery'
 import {Robot} from "./Components/Robot";
 
 import TaitLogo from './Assets/TaitLogo.svg';

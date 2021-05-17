@@ -25,7 +25,7 @@ export const InfoBox = (props: infoProps) => {
     }
     else
     {
-        if(props.content.length == 1) {
+        if(props.content.length === 1) {
             return (
                 <div style={{gridTemplateColumns: "100%"}} className="info-box">
                     <div className='info-box-section'>
