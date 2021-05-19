@@ -1,8 +1,3 @@
-
-
-export const UserArea = () =>
-{
-    return(
-        <div>User Area</div>
-    );
-}
+export const UserArea = () => {
+	return <div>User Area</div>;
+};

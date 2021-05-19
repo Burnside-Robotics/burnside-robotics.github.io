@@ -1,24 +1,21 @@
-.robot-container
-{
-  display: grid;
-  grid-template-rows: auto 17%;
-  grid-template-columns: 0;
-  width: 24vw;
-  .robot-title
-  {
-    transition-duration: 0.3s;
-    grid-row: 2;
-    background-color: rgba(255,255,255,0.6);
-    padding-top: 0.8vw;
-    border-radius: 0 0 3vw 3vw;
-    font-size: 2vw;
-    text-align: center;
-    backdrop-filter: blur(10px);
-  }
-  img
-  {
-    height: 24vw;
-    width: 24vw;
-    grid-row: 1/3;
-  }
+.robot-container {
+	display: grid;
+	grid-template-rows: auto 17%;
+	grid-template-columns: 0;
+	width: 24vw;
+	.robot-title {
+		transition-duration: 0.3s;
+		grid-row: 2;
+		background-color: rgba(255, 255, 255, 0.6);
+		padding-top: 0.8vw;
+		border-radius: 0 0 3vw 3vw;
+		font-size: 2vw;
+		text-align: center;
+		backdrop-filter: blur(10px);
+	}
+	img {
+		height: 24vw;
+		width: 24vw;
+		grid-row: 1/3;
+	}
 }

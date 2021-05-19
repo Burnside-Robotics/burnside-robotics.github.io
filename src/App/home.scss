@@ -1,109 +1,97 @@
 @font-face {
-  font-family: "Product Sans Bold";
-  src: url("./Assets/Fonts/Product Sans Bold.ttf");
+	font-family: "Product Sans Bold";
+	src: url("./Assets/Fonts/Product Sans Bold.ttf");
 }
 
 @font-face {
-  font-family: "Product Sans Regular";
-  src: url("./Assets/Fonts/Product Sans Regular.ttf");
+	font-family: "Product Sans Regular";
+	src: url("./Assets/Fonts/Product Sans Regular.ttf");
 }
 
 @font-face {
-  font-family: "Product Sans Medium";
-  src: url("./Assets/Fonts/Product Sans Medium 500.ttf");
+	font-family: "Product Sans Medium";
+	src: url("./Assets/Fonts/Product Sans Medium 500.ttf");
 }
 @font-face {
-  font-family: "Product Sans Black";
-  src: url("./Assets/Fonts/Product Sans Black 900.ttf");
+	font-family: "Product Sans Black";
+	src: url("./Assets/Fonts/Product Sans Black 900.ttf");
 }
 @font-face {
-  font-family: "Product Sans Thin";
-  src: url("./Assets/Fonts/Product Sans Thin 250.ttf");
+	font-family: "Product Sans Thin";
+	src: url("./Assets/Fonts/Product Sans Thin 250.ttf");
 }
 @font-face {
-  font-family: "Righteous Regular";
-  src: url("./Assets/Fonts/Righteous-Regular.ttf");
+	font-family: "Righteous Regular";
+	src: url("./Assets/Fonts/Righteous-Regular.ttf");
 }
-div{
-  font-family: "Product Sans Bold", serif;
+div {
+	font-family: "Product Sans Bold", serif;
 }
-h1
-{
-  color: black;
+h1 {
+	color: black;
 }
 
-h2
-{
-  font-family: "Product Sans Black";
-  color: black;
-  font-size: 2vw;
-  margin-top: 0;
+h2 {
+	font-family: "Product Sans Black";
+	color: black;
+	font-size: 2vw;
+	margin-top: 0;
 }
-h3
-{
-  font-family: "Righteous Regular";
-  color: white;
-  font-size: 3vw;
+h3 {
+	font-family: "Righteous Regular";
+	color: white;
+	font-size: 3vw;
 }
-h4
-{
-  font-family: "Product Sans Black";
-  color: white;
-  font-size: 2vw;
-  text-align: right;
-  margin-top: 10%;
-  margin-bottom: 0;
+h4 {
+	font-family: "Product Sans Black";
+	color: white;
+	font-size: 2vw;
+	text-align: right;
+	margin-top: 10%;
+	margin-bottom: 0;
 }
-h5{
-  font-family: "Product Sans Thin";
-  color: white;
-  font-size: 1.5vw;
-  text-align: right;
-  margin-top: 0;
+h5 {
+	font-family: "Product Sans Thin";
+	color: white;
+	font-size: 1.5vw;
+	text-align: right;
+	margin-top: 0;
 }
-p
-{
-  color: black;
-  font-size: 1vw;
-  font-family: "Product Sans Regular", serif;
+p {
+	color: black;
+	font-size: 1vw;
+	font-family: "Product Sans Regular", serif;
 }
-.HeaderLink
-{
-  font-family: "Product Sans Regular";
+.HeaderLink {
+	font-family: "Product Sans Regular";
 }
-section
-{
-  padding:  5% 5% 0 5%;
+section {
+	padding: 5% 5% 0 5%;
 }
-#RobotsSection
-{
-  display: grid;
-  grid-template-columns: 24vw auto 24vw auto 24vw;
-  grid-template-rows: 24vw 2vw 24vw;
-  padding-bottom: 5vw;
+#RobotsSection {
+	display: grid;
+	grid-template-columns: 24vw auto 24vw auto 24vw;
+	grid-template-rows: 24vw 2vw 24vw;
+	padding-bottom: 5vw;
 }
-#AwardsSection
-{
-  display: grid;
-  grid-template-columns: 18.2vw auto 18.2vw auto 18.2vw;
+#AwardsSection {
+	display: grid;
+	grid-template-columns: 18.2vw auto 18.2vw auto 18.2vw;
 }
-#Footer
-{
-  background-image: url("./Assets/KoruBackground.png");
-  display: grid;
-  grid-template-columns: 50% 50%;
-  background-repeat: repeat;
+#Footer {
+	background-image: url("./Assets/KoruBackground.png");
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-repeat: repeat;
 }
-.circuit-background
-{
-  background-color: #E7E9F1;
-  background-image: url('./Assets/All_CircuitArt.svg');
+.circuit-background {
+	background-color: #e7e9f1;
+	background-image: url("./Assets/All_CircuitArt.svg");
 }
-.circuit-background-blur
-{
-  background-image: linear-gradient(
-                  to bottom,
-                  rgba(231, 233, 241, 1) 0.5%,
-                  rgba(231, 233, 241, 0)
-  );
+.circuit-background-blur {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(231, 233, 241, 1) 0.5%,
+		rgba(231, 233, 241, 0)
+	);
 }

@@ -1,18 +1,16 @@
-.section-banner
-{
-  height: 7vw;
-  opacity: 0.6;
-  backdrop-filter: blur(10px);
-  text-align: center;
-  background-position: center;
-  background-size: contain;
-  h1
-  {
-    font-size: 2vw;
-    color: white;
-    margin: 0;
-    padding: 1% 0 0;
-    height: 100%;
-    vertical-align: middle;
-  }
+.section-banner {
+	height: 7vw;
+	opacity: 0.6;
+	backdrop-filter: blur(10px);
+	text-align: center;
+	background-position: center;
+	background-size: contain;
+	h1 {
+		font-size: 2vw;
+		color: white;
+		margin: 0;
+		padding: 1% 0 0;
+		height: 100%;
+		vertical-align: middle;
+	}
 }
