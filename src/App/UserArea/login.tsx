@@ -23,7 +23,7 @@ export const Login = () => {
 	if (isSignedIn) history.push("/user");
 	return (
 		<div className="login-container">
-			<img className="" src={HeaderLogo} alt="robotics-photo" />
+			<img className="" src={HeaderLogo} alt="logo" />
 			<input
 				type="text"
 				name="email"
