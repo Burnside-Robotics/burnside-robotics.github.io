@@ -4,9 +4,10 @@ import "./index.css";
 import { App } from "./App/App.tsx";
 import reportWebVitals from "./reportWebVitals";
 import firebase from "firebase";
+require('dotenv').config();
 
 firebase.initializeApp({
-	apiKey: "AIzaSyCMl-G95hqOYmfgJPgRCbATuE6r5s-AT9s",
+	apiKey: process.env.API_KEY,
 	authDomain: "burnside-robotics-website.firebaseapp.com",
 	projectId: "burnside-robotics-website",
 	storageBucket: "burnside-robotics-website.appspot.com",
