@@ -24,6 +24,24 @@
 	font-family: "Righteous Regular";
 	src: url("./Assets/Fonts/Righteous-Regular.ttf");
 }
+
+::-webkit-scrollbar {
+	width: 0.8vw;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	background: #E7E9F1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #6674a1;
+	border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #9aa7e2;
+}
+
 div {
 	font-family: "Product Sans Bold", serif;
 }
