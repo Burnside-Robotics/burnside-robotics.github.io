@@ -4,14 +4,20 @@
 	backdrop-filter: blur(6x);
 	padding: 2%;
 	margin: 0 0 4% 0;
-	display: grid;
-	grid-template-columns: auto 10% auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: center;
 	text-align: center;
 	.info-box-splitter {
 		background-color: grey;
 		opacity: 0.2;
-		margin: 0 46% 0 46%;
+		width: 0.5vw;
+		margin: 0 2vw 0 2vw;
 		border-radius: 1.04vw;
+	}
+	.info-box-section {
+		width: 45%;
 	}
 	h2 {
 		margin-top: 0;
